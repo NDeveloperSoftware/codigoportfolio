@@ -1,0 +1,66 @@
+.web-background {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("PROYECTOS.png") center/cover no-repeat; /* Establecer el fondo aquí */
+  }
+  
+
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    height:100%;
+  }
+  
+  .container-carousel {
+    position: relative;
+    width: 360px;
+    height: 360px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.66);
+    border-radius: 15px;
+    overflow: hidden;
+    border: 2px solid white;
+    margin-top: 60px;
+
+  }
+
+  @media screen and (max-width: 600px) {
+    .container-carousel {
+
+    width: 300px;
+    height: 300px;
+    }
+  }
+  
+  .carruseles {
+    width: 700%; /* Ajusta según el número de imágenes */
+    height: 100%;
+    display: flex;
+    transition: transform 0.6s ease;
+  }
+  
+  .slider-section {
+    flex: 0 0 14.2857%; /* 100% / 7 */
+    height: 100%;
+  }
+  
+  .slider-section img {
+    width: 100%;
+    border-radius: 4px;
+  }
+
+
+.btn-right{
+font-size:30px;
+cursor: pointer;
+}
+
+
+.container-carousel:hover{
+  border: 2px solid rgb(188, 181, 174);
+  box-shadow: 0 0 15px 5px rgba(254, 242, 224, 0.7); /* Efecto de destello en el borde */
+  transform: scale(1.04); /* Efecto de escala al hacer hover */
+
+
+}

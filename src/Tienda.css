@@ -1,0 +1,100 @@
+
+.card-container {
+    display: flex;
+    justify-content: space-around; /* Espaciado uniforme entre las tarjetas */
+    flex-wrap: wrap; /* Permite que las tarjetas se muevan a la siguiente línea en pantallas más pequeñas */
+  }
+
+.card {
+    max-width: 380px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.5rem;
+    border: solid 2px white;
+    background-color: rgba(0, 0, 0, 1);
+    flex: 1; /* Crecer para ocupar el espacio disponible */
+    margin: 10px;
+    margin-top: 70px;
+  }
+  
+  #descripcion{
+  font-size: 11.1px;
+  margin: 2px;
+}
+  .price {
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 300;
+    letter-spacing: -0.025em;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .lists {
+    margin-top: 4px;
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 0.75rem;
+    row-gap: 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.15rem;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .list {
+    display: flex;
+    align-items: center;
+  }
+  
+  .list svg {
+    height: 1rem;
+    width: 1rem;
+  }
+  
+  .list span {
+    margin-left: 1rem;
+  }
+  
+  .action {
+    margin-top: 10px;
+    width: 100%;
+    border: 2px solid  rgba(255, 255, 255, 1);
+    border-radius: 9999px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 0.625rem 1.5rem;
+    text-align: center;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: rgba(0, 0, 0, 1);
+    outline: none;
+    transition: all .2s ease;
+  }
+  
+  .action:hover {
+    color: rgba(255, 255, 255, 1);
+    background-color: transparent;
+  }
+
+  #botonestienda{
+  font-size: 12px;
+  background: red;
+  }
+
+
+  .action {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Alinea horizontalmente el contenido */
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  .action span {
+    margin-right: 5px; /* Ajusta el espacio entre el texto y la imagen según sea necesario */
+  }
+  
+  .action img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  

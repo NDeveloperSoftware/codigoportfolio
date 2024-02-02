@@ -1,0 +1,170 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+body{
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+    padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+    max-width: 1500px; /* Establece el ancho máximo del contenedor principal */
+    width: 100%;
+    height: 100%;
+}
+.links-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Asegúrate de que el z-index sea mayor que el del fondo */
+  }
+
+  
+  .ver-mas-button{
+    margin-top: -30px;
+    font-size: 14px;
+    z-index: 100;
+    display: block;
+    position: fixed;
+    }
+
+    /* Estilos adicionales */
+.object-cover {
+    object-fit: cover;
+  }
+  
+
+
+  #botonresponsive{
+    font-size: 12px;
+    background-color: rgb(0, 0, 0);
+    }
+
+  
+  #que-hacemos-section {
+    padding: 100px 10px; /* Ajusta el espacio interno */
+    text-align:left;
+    
+  }
+  
+
+
+  .que-hacemos-text p {
+    font-size: 1.105rem; /* Tamaño del texto */
+    line-height: 1.3;
+    color: white; /* Color del texto secundario */
+    margin-bottom: 10px; /* Espacio inferior */
+    justify-content: left;
+  }
+  
+  /* Estilos de la imagen */
+  .que-hacemos-image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    align-items: right;
+    border-radius: 2px; /* Añade bordes redondeados a la imagen */
+  }
+  
+
+  @media only screen and (max-width: 600px) {
+    /* Styles for small screens */
+    .background object-cover h-full w-full{
+      width: 100%; /* Adjust as needed */
+      max-height: 100%;
+      min-width: 350px;
+    }
+
+    #que-hacemos-section {
+      padding: 30px 10px; /* Ajusta el espacio interno */
+      text-align:left;
+      
+    }
+  }
+  
+
+  .boton{
+display: block;
+margin: 0 auto;
+z-index: 9999;
+position: fixed;
+color: white;
+background-color: grey;
+border-radius: 10px solid;
+  }
+  
+
+
+
+
+
+
+
+
+
+/* Ajusta el tamaño de la imagen para dispositivos móviles */
+@media screen and (max-width: 600px) {
+  .logoprincipal img {
+    width: 100%; /* Haz que la imagen ocupe el 100% del ancho disponible */
+    max-width: 320px; /* Establece un máximo de 320px para evitar que la imagen se agrande demasiado */
+  }
+
+  .h-full {
+    height: 100%;
+  }
+
+    /* Estilos de la imagen */
+    .que-hacemos-image img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      margin-top: -20px;
+      align-items: right;
+      border-radius: 2px; /* Añade bordes redondeados a la imagen */
+    }
+
+    .que-hacemos-text p {
+      font-size: 1.02rem; /* Tamaño del texto */
+      line-height: 1.4;
+      color: white; /* Color del texto secundario */
+      justify-content: left;
+
+    }
+
+
+
+
+
+}
+
+
+
+/* Estilos para pantallas grandes (laptops, desktops, etc.) */
+@media (min-width: 1024px) {
+  /* Ajustes específicos para pantallas grandes */
+}
+
+
+
+#whatsapp {
+  width: 30px;
+  color: rgb(54, 193, 54);
+  top: 40px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+
+#whatsapplink {
+  width: 20px;
+  color: rgb(54, 193, 54);
+  top: 0px;
+  margin-top: 19px;
+}
+
+#whatsapplink:hover,#whatsapp:hover  {
+color:white;
+transform: scale(1.2); /* Escala el icono al pasar el ratón sobre él para dar un efecto de realce */
+
+}
+

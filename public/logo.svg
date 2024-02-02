@@ -1,0 +1,12 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1640 664" width="1640" height="664">
+	<title>Proyecto nuevo</title>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 180px;fill: #9f0c0c;font-weight: 400;font-family: "DejaVuSans", "DejaVu Sans" } 
+		.t1 { font-size: 180px;fill: #1a0909;font-weight: 400;font-family: "DejaVuSans", "DejaVu Sans" } 
+	</style>
+	<text id="NDev" style="transform: matrix(1,0,0,1,578.703,366.5)" >
+		<tspan x="0" y="0" class="t0">N</tspan><tspan  y="0" class="t0">D</tspan><tspan  y="0" class="t1">e</tspan><tspan  y="0" class="t1">v</tspan><tspan  y="0" class="t1">
+</tspan>
+	</text>
+</svg>
